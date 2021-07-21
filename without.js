@@ -5,7 +5,7 @@ const without = (arr1, arr2) => {
         for(let j = 0; j < filtered.length; j++) {
             if(arr2[i] === filtered[j]) {
                 filtered.splice(j, 1)
-                j = 0
+                j -= 1
             }
         }
     }
