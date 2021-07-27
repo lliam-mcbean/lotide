@@ -1,0 +1,26 @@
+{
+  "name": "@lliammcbean/lotide",
+  "version": "1.0.0",
+  "description": "a function library for various use cases. refer to README for full details",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soupIsTheCurrencyOfTheFuture/lotide.git"
+  },
+  "author": "lliammcbean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soupIsTheCurrencyOfTheFuture/lotide/issues"
+  },
+  "homepage": "https://github.com/soupIsTheCurrencyOfTheFuture/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3"
+  }
+}
